@@ -1,0 +1,86 @@
+/* NavBar CSS */
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    width: 23%; 
+    padding: 1%;
+    text-align: center; 
+}
+nav {
+    width: 73%; 
+    padding: 1%;
+}
+ul {
+    width: 50%; 
+    margin-left: auto; 
+}
+
+.navigation {
+    width: 100%; 
+    box-sizing: border-box; 
+    overflow: hidden;
+}
+
+/* Hero Image CSS */
+.heroImg {
+    height: 600px; 
+    padding: 25px; 
+    background: url('/Images/About\ me\ photo.png') no-repeat center center; 
+    background-size: cover; 
+}
+.content {
+    width: 500px; 
+    margin: 0 auto; 
+    text-align: center; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px; 
+    border-radius: 10px; 
+}
+.content p, .content p1, .content p2 {
+    color: #333;
+    font-size: 16px; 
+    line-height: 1.6; 
+}
+.content button {
+    padding: 10px 20px; 
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+.content button:hover {
+    background-color: #0056b3; 
+}
+
+/* Footer CSS */
+footer {
+    background-color: lightgrey; 
+    padding: 20px 0; 
+    text-align: center; 
+    color: black; 
+}
+
+footer ul {
+    display: inline-block; 
+    vertical-align: top; 
+    padding: 0; 
+    margin: 0 auto; 
+    list-style-type: none; 
+}
+
+footer ul li {
+    display: inline; 
+    padding: 0 15px;
+}
+
+footer ul li a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+footer ul li a:hover {
+    text-decoration: underline; 
+}
